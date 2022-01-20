@@ -11,7 +11,6 @@
 .grid div {
   width: 20px;
   height: 20px;
-  /* background-color: rgb(13, 131, 228); */
 }
 
 .tetromino {
@@ -25,4 +24,9 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(13, 228, 228);
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
 }
